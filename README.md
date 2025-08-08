@@ -12,13 +12,13 @@ Weather_app
 - httpx (внешний запрос к WeatherAPI)
   
 ## Добавить .env в корень проекта 
--POSTGRES_USER=postgres  *Имя пользователя БД
--POSTGRES_PASSWORD=postgres *Пароль пользователя БД
--POSTGRES_DB=weather_db *Название БД к которой мы будем подключаться
--POSTGRES_HOST=localhost *Адрес подключения
--POSTGRES_PORT=5433 *Порт
--WEATHER_API_URL=https://api.weatherapi.com/v1/current.json *Ссылка по которой делается запрос
--WEATHERAPI_KEY=cb837c081df748578b0101844250608 *Ключик буратино
+- POSTGRES_USER=postgres  *Имя пользователя БД
+- POSTGRES_PASSWORD=postgres *Пароль пользователя БД
+- POSTGRES_DB=weather_db *Название БД к которой мы будем подключаться
+- POSTGRES_HOST=localhost *Адрес подключения
+- POSTGRES_PORT=5433 *Порт
+- WEATHER_API_URL=https://api.weatherapi.com/v1/current.json *Ссылка по которой делается запрос
+- WEATHERAPI_KEY=cb837c081df748578b0101844250608 *Ключик буратино
 
 
 ## Как запустить проект
