@@ -8,7 +8,7 @@ import httpx
 WEATHER_API_URL = os.getenv("WEATHER_API_URL")
 WEATHERAPI_KEY = os.getenv("WEATHERAPI_KEY")
 
-# В продакшне лучше не печатать ключи в логи; при разработке — можно печатать только первые/последние символы
+
 print("API URL:", WEATHER_API_URL)
 
 def get_weather_by_city(city: str):
