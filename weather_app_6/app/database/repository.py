@@ -15,6 +15,6 @@ def save_weather_request(
         temperature=result["температура"]  # ожидаем ключ
     )
 
-    # Добавляем и коммитим
+ 
     session.add(db_record)
     session.commit()
